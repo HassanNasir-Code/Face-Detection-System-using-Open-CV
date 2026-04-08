@@ -11,7 +11,8 @@ def ID_Face(vid): #detect faces and draw a box around the head
     face = face_class.detectMultiScale(gray_img, 1.1, 5, minSize= (40, 40))
     for (x, y, w, h) in face:
         cv2.rectangle(vid, (x, y), (x + w, y + h), (0, 255, 0), 4 )
-        return face
+    
+    return face
     
 while True: #creates a loop allowing for real time detection
 
