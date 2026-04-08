@@ -10,6 +10,9 @@ Face detection sits at the core of computer vision. You run into it in all sorts
 
 You’ll work with Python, using OpenCV for all the computer vision tasks. NumPy helps with any number crunching or working with arrays. The real star is the Haar Cascade XML file from OpenCV, which does the heavy lifting on catching faces.
 
+<img width="800" height="520" alt="image" src="https://github.com/user-attachments/assets/e6678210-bfdb-4d3b-b65b-e18e63c58552" />
+source : https://pyimagesearch.com/2018/09/24/opencv-face-recognition/
+
 How the Files Are Arranged
 
 Face-Detection-System-using-Open-CV/
