@@ -1,5 +1,5 @@
-**Face Detection System with OpenCV
-**
+**Face Detection System with OpenCV**
+
 This project is all about spotting faces—live from your webcam, in photos, or in videos—using Python and OpenCV. By using a pre-trained Haar Cascade classifier, it finds faces pretty quickly and doesn’t need much computing power. It’s a great hands-on way to dip your toes into computer vision and classic object detection.
 
 **What’s This For?**
