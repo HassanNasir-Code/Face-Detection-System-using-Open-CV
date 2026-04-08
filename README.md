@@ -16,8 +16,10 @@ source : https://pyimagesearch.com/2018/09/24/opencv-face-recognition/
 How the Files Are Arranged
 
 Face-Detection-System-using-Open-CV/
+
 │
 ├── haarcascade_frontalface_default.xml
+
 ├── main.py
 
 **Getting Set Up**
