@@ -7,7 +7,7 @@ face_class = cv2.CascadeClassifier( #constructor takes a path to a trained file 
 Rec = cv2.VideoCapture(0) #allows acess to device camers
 
 def ID_Face(vid): #detect faces and draw a box around the head
-    gray_img = cv2.cvtColor(vid, cv2.COLOR_BAYER_BG2GRAY)
+    gray_img = cv2.cvtColor(vid, cv2.COLOR_BG2GRAY)
     face = face_class.detectMultiScale(gray_img, 1.1, 5, minSize= (40, 40))
     for (x, y, w, h) in face:
         cv2.rectangle(vid, (x, y), (x + w, y + h), (0, 255, 0), 4 )
